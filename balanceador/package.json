@@ -1,0 +1,20 @@
+{
+    "name": "api-rest",
+    "version": "1.0.0",
+    "description": "API REST con Express",
+    "main": "dist/index.js",
+    "type": "commonjs",
+    "scripts": {
+        "start": "node dist/node-server.ts",
+        "dev": "tsx watch src/node-server.ts",
+        "build": "tsc",
+        "typecheck": "tsc --noEmit",
+        "balancer": "tsx watch src/balancer.ts",
+        "test": "tsx watch src/test.ts"
+    },
+    "devDependencies": {
+        "@types/node": "^26.6.4",
+        "tsx": "^3.12.7",
+        "typescript": "^5.2.2"
+    }
+}
