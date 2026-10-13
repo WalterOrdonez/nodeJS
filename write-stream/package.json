@@ -1,0 +1,19 @@
+{
+    "name": "api-rest",
+    "version": "1.0.0",
+    "description": "API REST con Express",
+    "main": "dist/index.js",
+    "type": "commonjs",
+    "scripts": {
+        "start": "node dist/pipeline.js",
+        "dev": "tsx watch src/pipeline.ts",
+        "build": "tsc",
+        "typecheck": "tsc --noEmit",
+        "seed": "tsx watch src/seed.ts"
+    },
+    "devDependencies": {
+        "@types/node": "^26.6.5",
+        "tsx": "^3.12.7",
+        "typescript": "^5.2.2"
+    }
+}
